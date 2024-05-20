@@ -1,0 +1,134 @@
+body{
+    background-color: skyblue;
+    
+}
+
+.fmbdy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    padding-right: 0px;
+}
+
+form{
+    background-color: white;
+    width: 35%;
+    padding: 30px;
+    border-radius: 15px;
+    height: 95%;
+}
+h1{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    }
+.parent label {
+    font-size: 15px;
+    color: rgba(128, 128, 128, 0.747);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.child1 input {
+    padding: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.445);
+    border-radius: 6px;
+    padding-right: 93px;
+    margin-top: 6px;
+}
+
+.child2 input {
+  padding: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.445);
+  border-radius: 6px;
+  padding-right: 93px;
+  margin-top: 6px;
+}
+
+.email label {
+    font-size: 14px;
+    color: rgba(128, 128, 128, 0.747);
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+.email input {
+    padding: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.445);
+    border-radius: 6px;
+    padding-right: 373px;
+    margin-top: 6px;
+}
+p {
+    font-size: 15px;
+    color: rgba(128, 128, 128, 0.747);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.support {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    justify-content: space-around;
+}
+
+.support label {
+    padding-right: 120px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+
+.msg label {
+    font-size: 14px;
+    color: rgba(128, 128, 128, 0.747);
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+.msg input {
+    padding-bottom: 120px;
+    border: 1px solid rgba(0, 0, 0, 0.445);
+    border-radius: 6px;
+    padding-right: 375px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.check {
+    padding-top: 10px;
+    padding-top: 10px;
+}
+
+.check label {
+    padding: 10px;
+}
+
+button {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 90%;
+    margin-top: 30px;
+    padding: 5px;
+    border-radius: 6px;
+    border: 1px solid gray;
+    background-color: rgb(15, 155, 15);
+
+}
+strong{
+    color: green;
+}
+
+.radio {
+    border: 1px solid gray;
+    border-radius: 6px;
+    padding: 5px;
+}
+
